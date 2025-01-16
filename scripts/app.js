@@ -36,7 +36,7 @@
 
         //<article></article>
         let Article = document.createElement("article");
-        let ArticleParagraph = `<p id = "Articleparagraph" class = "mt-3">This is My First article Paragraph</p>;`
+        let ArticleParagraph = `<p id = "Articleparagraph" class = "mt-3">This is My First article Paragraph</p>`
         Article.setAttribute ("class", "container");
         Article.innerHTML = ArticleParagraph;
         DocumentBody.appendChild(Article);
@@ -85,6 +85,6 @@
         }
 
     }
-    window.addEventListener("Load", Start);
+    window.addEventListener("load", Start);
 
 })()
